@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    border: solid 1px;
+    width: 330px;
+    position: fixed;
+    height: 100%;
+    background-color: cadetblue;
+    padding-top: 60px;
+    list-style: none;
+}
+#text1{
+    color: deepskyblue;
+    font-size: 40px;
+    font-weight: bold;
+}
+#text2{
+    color: darkmagenta;
+    font-size: 33px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px; 
+    height: 50px;
+    width: 160px;
+    margin-left: 70px;
+    background-color: pink;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-bottom: 1px;
+}
+ul li a{
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: chocolate;
+}
+#Home{
+    border: solid 1PX;
+    height: 800PX;
+    background-color: aqua;
+    padding-left: 340px;
+}
+#text3{
+    color: azure;
+    font-size: 58px;
+}
+#text4{
+    color: rebeccapurple;
+}
+#text5{
+    font-size: 22px;
+    font-weight: bold;
+}
+#bt1{
+    height: 100px;
+    width: 150px;
+    background-color: cadetblue;
+    border-radius: 2opx;
+    color: aquamarine;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#about{
+    border: solid 1px;
+    height: 800px;
+    background-color: skyblue;
+    padding-left: 335px;
+}
+#aboutme{
+    font-size: 50px;
+    color: cornflowerblue;
+}
+html{
+    scroll-behavior: smooth;
+}
